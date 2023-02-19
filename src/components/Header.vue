@@ -1,10 +1,13 @@
 <template>
-    <h1>Task Tracker</h1>
+    <h1>{{title}}</h1>
 </template>
 
 <script>
 export default{
     name:'Header',
+    props:{
+        title:String,
+    }
 }
 </script>
 <style scoped>
