@@ -4,7 +4,7 @@
     <Button
       v-show="homePage"
       @btn-click="$emit('toggle-add-task')"
-      :text="showAddTask ? 'Close' : 'Add task'"
+      :text="showAddTask ? 'Close' : 'Add Task'"
       :color="showAddTask ? 'red' : 'green'"
     />
   </header>
@@ -33,6 +33,7 @@ export default {
   },
 };
 </script>
+
 <style scoped>
 header {
   display: flex;
